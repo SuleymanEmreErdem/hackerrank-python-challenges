@@ -1,0 +1,5 @@
+Neng = int(input())
+eng = set(input().split())
+Nfr = int(input())
+fr = set(input().split())
+print(len(eng ^ fr))
