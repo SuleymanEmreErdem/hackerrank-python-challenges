@@ -1,0 +1,5 @@
+N1 = int(input())
+eng = set(input().split())
+N2 = int(input())
+fr = set(input().split())
+print(len(eng.intersection(fr)))
