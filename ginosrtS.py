@@ -10,8 +10,5 @@ for item in S:
             even.append(item)
         else:
             odd.append(item)
-upper.sort()
-lower.sort()
-odd.sort()
-even.sort()
+upper.sort(), lower.sort(), odd.sort(), even.sort()
 print("".join(lower)+"".join(upper)+"".join(odd)+"".join(even))
